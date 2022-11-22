@@ -44,7 +44,6 @@ export default Speaker;
 const Container = styled.section`
   width: 414px;
   padding: 1rem;
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   margin: 0 auto;
 `;
 

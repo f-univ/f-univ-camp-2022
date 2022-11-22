@@ -42,7 +42,6 @@ const Wrapper = styled.div`
 
 const Year = styled.div`
   font-size: 2rem;
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 `;
 
 const Title = styled.div`
@@ -53,12 +52,13 @@ const Title = styled.div`
 
 const Scroll = styled.div`
   font-size: 1rem;
-  font-family: 'Spline Sans', sans-serif;
+  font-family: 'Spline Sans Mono Light';
   opacity: 0.9;
   padding: 4rem 0;
 `;
 
 const ScrollWhite = styled.span`
+  font-family: 'Spline Sans Mono Regular';
   opacity: 0.3;
 `;
 
@@ -66,5 +66,4 @@ const ProgramDescription = styled.div`
   font-size: 1.4rem;
   text-align: center;
   padding: 4rem 0;
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 `;

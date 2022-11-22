@@ -1,3 +1,22 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
-@import url('https://fonts.cdnfonts.com/css/konexy-personal-use');
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+
+@font-face {
+  font-family: 'Konexy Personal Use';
+  src: url('/public/fonts/subset-KonexyPersonalUseRegular.woff2')
+    format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spline Sans Mono Light';
+  src: url('/public/fonts/subset-SplineSansMono-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spline Sans Mono Regular';
+  src: url('/public/fonts/subset-SplineSansMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
