@@ -4,19 +4,19 @@
   font-family: 'Konexy Personal Use';
   src: url('/public/fonts/subset-KonexyPersonalUseRegular.woff2')
     format('woff2');
-  font-display: swap;
+  font-display: optional;
 }
 
 @font-face {
   font-family: 'Spline Sans Mono Light';
   src: url('/public/fonts/subset-SplineSansMono-Light.woff2') format('woff2');
   font-weight: 300;
-  font-display: swap;
+  font-display: optional;
 }
 
 @font-face {
   font-family: 'Spline Sans Mono Regular';
   src: url('/public/fonts/subset-SplineSansMono-Regular.woff2') format('woff2');
   font-weight: 400;
-  font-display: swap;
+  font-display: optional;
 }

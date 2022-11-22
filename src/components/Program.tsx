@@ -50,7 +50,7 @@ const Scroll = styled.div`
 
 const ScrollWhite = styled.span`
   font-family: 'Spline Sans Mono Regular';
-  opacity: 0.3;
+  opacity: 0.61;
 `;
 
 const ProgramDescription = styled.div`
