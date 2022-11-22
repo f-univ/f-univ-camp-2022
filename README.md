@@ -2,7 +2,7 @@
 
 # **F.univ conf 2022**
 
-<img src="public/_3D_logo.svg" width="150px"><br>
+<img src="public/icons/_3D_logo.svg" width="350px"><br>
 Front-end Developer를
 <br />
 꿈꾸는 대학생들이
@@ -10,3 +10,5 @@ Front-end Developer를
 한층 더 성장하는 기회!
 
 </div>
+
+일자: 2022년 12월 18일
