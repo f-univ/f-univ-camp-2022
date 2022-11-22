@@ -27,7 +27,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10rem;
+  padding-top: 6rem;
 `;
 
 const Year = styled.div`
