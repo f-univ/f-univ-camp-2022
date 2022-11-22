@@ -48,7 +48,7 @@ const Container = styled.section`
 `;
 
 const SessionHeader = styled.div`
-  border-radius: 10px 10px 0 0;
+  border-radius: 5px 5px 0 0;
   display: flex;
   background-color: #749afe;
 `;
@@ -73,7 +73,7 @@ const Session = styled.div`
 const Time = styled.div`
   color: black;
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: 500;
   padding-left: 0.2rem;
 `;
 
@@ -84,12 +84,13 @@ const SpeakerImage = styled.img`
 
 const SessionBottom = styled.div`
   padding: 1rem;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 5px 5px;
   background-color: #20232c;
 `;
 
 const Title = styled.div`
   font-size: 1.2rem;
+  font-weight: 500;
 `;
 
 const Info = styled.div`
