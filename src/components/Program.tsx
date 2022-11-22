@@ -5,21 +5,11 @@ const Program = () => {
     <Wrapper>
       <Year>2022</Year>
       <Title>F.univ Conf</Title>
-      <img
-        src="/public/icons/_3D_logo.svg"
-        height={300}
-        width="80%"
-        alt="3d_logo"
-      />
+      <img src="/icons/_3D_logo.svg" height={300} width="80%" alt="3d_logo" />
       <Scroll>
         Scroll Down<ScrollWhite> to see more</ScrollWhite>
       </Scroll>
-      <img
-        src="/public/icons/downArrow.svg"
-        height={25}
-        width="10%"
-        alt="downarrow"
-      />
+      <img src="/icons/downArrow.svg" height={25} width="10%" alt="downarrow" />
       <ProgramDescription>
         Front-end Developer를
         <br />
