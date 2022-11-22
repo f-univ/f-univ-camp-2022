@@ -88,7 +88,7 @@ const SessionBottom = styled.div`
   background-color: #20232c;
 `;
 
-const Title = styled.div`
+const Title = styled.h1`
   font-size: 1.2rem;
   font-weight: 500;
 `;

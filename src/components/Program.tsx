@@ -34,8 +34,9 @@ const Year = styled.div`
   font-size: 1.2rem;
 `;
 
-const Title = styled.div`
+const Title = styled.h1`
   font-size: 2.2rem;
+  font-weight: 400;
   font-family: 'Konexy Personal Use', sans-serif;
   padding-bottom: 4rem;
 `;

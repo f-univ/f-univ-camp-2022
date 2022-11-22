@@ -6,7 +6,7 @@ const Footer = () => {
 
 export default Footer;
 
-const Wrapper = styled.div`
+const Wrapper = styled.footer`
   padding: 5rem 0 3rem 0;
   text-align: center;
   opacity: 0.8;
