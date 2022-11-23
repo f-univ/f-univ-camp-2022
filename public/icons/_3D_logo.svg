@@ -1,5 +1,5 @@
 <svg width="766" height="693" viewBox="0 0 766 693" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<circle cx="382.5" cy="393.5" r="266.5" fill="url(#paint0_radial_213_856)"/>
+<circle cx="382.5" cy="393.5" r="183.5" fill="url(#paint0_radial_213_856)"/>
 <rect x="14" y="37.9424" width="751.037" height="654.949" fill="url(#pattern0)"/>
 <path d="M719.569 385.55V402H740.444V399.325H722.794V395.1H739.369V392.4H722.794V388.225H740.444V385.55H719.569Z" fill="white"/>
 <path d="M718.885 477.196V493.646H722.11V481.596L737.735 493.671H740.56V477.196H737.335V489.246L721.71 477.196H718.885Z" fill="white"/>
@@ -23,7 +23,7 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_213_856" transform="translate(-0.277184) scale(0.000809566 0.000925926)"/>
 </pattern>
-<radialGradient id="paint0_radial_213_856" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(382.5 393.5) rotate(90) scale(266.5)">
+<radialGradient id="paint0_radial_213_856" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(382.5 393.5) rotate(90) scale(183.5)">
 <stop stop-color="#6451E5"/>
 <stop offset="1" stop-color="#0C0D40" stop-opacity="0"/>
 </radialGradient>
