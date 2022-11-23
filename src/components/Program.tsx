@@ -11,7 +11,9 @@ const Program = () => {
       </Title>
       <img src="/icons/_3D_logo.svg" height={300} alt="3d_logo" />
       <ProgramArticle>
-        <SubmitButton onClick={() => alert('서비스 준비 중!!')}>
+        <SubmitButton
+          onClick={() => window.open('https://forms.gle/bJQfBroLFCMAaUXu8')}
+        >
           지금 신청하기
         </SubmitButton>
       </ProgramArticle>
