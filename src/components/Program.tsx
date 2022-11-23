@@ -4,17 +4,18 @@ const Program = () => {
   return (
     <Wrapper>
       <Year>2022</Year>
-      <Title>F.univ Conf</Title>
-      <img src="/icons/_3D_logo.svg" height={300} width="100%" alt="3d_logo" />
+      <Title>
+        F -UNIV
+        <br />
+        Conference
+      </Title>
+      <img src="/icons/_3D_logo.svg" height={400} alt="3d_logo" />
       <ProgramArticle>
         <SubmitButton onClick={() => alert('서비스 준비 중!!')}>
           지금 신청하기
         </SubmitButton>
       </ProgramArticle>
-      <Scroll>
-        Scroll Down<ScrollWhite> to see more</ScrollWhite>
-      </Scroll>
-      <img src="/icons/downArrow.svg" height={25} width="8%" alt="downarrow" />
+      <img src="/icons/downArrow.svg" height={14} alt="downarrow" />
       <ProgramDescription>
         <Bold>Front-end Developer</Bold>를
         <br />
@@ -37,6 +38,7 @@ const Wrapper = styled.div`
 
 const Year = styled.div`
   font-size: 1.2rem;
+  font-family: 'Konexy Personal Use', sans-serif;
 `;
 
 const Title = styled.h1`
@@ -44,31 +46,21 @@ const Title = styled.h1`
   font-weight: 400;
   font-family: 'Konexy Personal Use', sans-serif;
   padding-bottom: 4rem;
-`;
-
-const Scroll = styled.div`
-  font-size: 1rem;
-  font-family: 'Spline Sans Mono Light';
-  opacity: 0.9;
-  padding: 4rem 0;
+  text-align: center;
+  line-height: 2.5rem;
 `;
 
 const ProgramArticle = styled.article`
-  padding: 3rem;
+  padding: 4rem;
 `;
 
 const SubmitButton = styled.button`
   border: none;
   border-radius: 5px;
   background-color: #4000fa;
-  width: 300px;
+  width: 320px;
   padding: 1rem;
   cursor: pointer;
-`;
-
-const ScrollWhite = styled.span`
-  font-family: 'Spline Sans Mono Regular';
-  opacity: 0.61;
 `;
 
 const ProgramDescription = styled.div`

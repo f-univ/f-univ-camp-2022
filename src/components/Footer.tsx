@@ -7,7 +7,7 @@ const Footer = () => {
         GitHub
       </GitHub>
       <Copy>COPYRIGHT 2022 FE UNIV CONF | 2022</Copy>
-      <Designer>designed by CHEMIN</Designer>
+      <Designer>Designed by CHEMIN</Designer>
     </Wrapper>
   );
 };

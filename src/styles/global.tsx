@@ -86,6 +86,7 @@ export const global = (
         background-image: url("data:image/svg+xml,%3Csvg width='829' height='830' viewBox='0 0 829 830' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='414.494' cy='414.975' r='414.256' fill='url(%23paint0_radial_171_629)'/%3E%3Cdefs%3E%3CradialGradient id='paint0_radial_171_629' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='translate(414.494 414.975) rotate(90) scale(414.256)'%3E%3Cstop stop-color='%236451E5'/%3E%3Cstop offset='1' stop-color='%230C0D40' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3C/svg%3E%0A");
         background-repeat: no-repeat;
         background-position: top;
+        background-size: 1rem;
       }
     `}
   />
