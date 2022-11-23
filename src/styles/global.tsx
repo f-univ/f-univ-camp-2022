@@ -62,6 +62,10 @@ export const global = (
       select {
         font: inherit;
       }
+      html,
+      body {
+        overflow-x: hidden;
+      }
 
       /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
       @media (prefers-reduced-motion: reduce) {
