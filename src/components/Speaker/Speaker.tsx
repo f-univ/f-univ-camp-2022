@@ -12,29 +12,47 @@ interface SpeakInfo {
   sessionNumber: number;
   time: string;
   imageUrl: string;
+  github: string;
 }
 
 const Speaker = ({ speakInfo }: Prop) => {
   return (
     <Container>
-      <SessionHeader>
-        <InfoWrapper>
-          <Session>Session 0{speakInfo.sessionNumber}</Session>
-          <Time>{speakInfo.time}</Time>
-        </InfoWrapper>
-        <SpeakerImage
-          width={191}
-          height={170}
-          src={speakInfo.imageUrl}
-          alt="speaker"
-        />
-      </SessionHeader>
-      <SessionBottom>
-        <Title>{speakInfo.title}</Title>
-        <Info>
-          {speakInfo.univ} {speakInfo.name} · {speakInfo.subTitle}
-        </Info>
-      </SessionBottom>
+      <Wrapper href={speakInfo.github} target="_blank">
+        <SessionHeader>
+          <InfoWrapper>
+            <Session>Session 0{speakInfo.sessionNumber}</Session>
+            <Time>{speakInfo.time}</Time>
+          </InfoWrapper>
+          <SpeakerImage
+            width={191}
+            height={170}
+            src={speakInfo.imageUrl}
+            alt="speaker"
+          />
+        </SessionHeader>
+        <SessionBottom>
+          <Title>{speakInfo.title}</Title>
+          <Info>
+            <>
+              {speakInfo.univ} {speakInfo.name} · {speakInfo.subTitle}
+            </>
+            <Git>
+              GitHub 보러가기{' '}
+              <svg
+                width="10"
+                height="10"
+                viewBox="0 0 25 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 11L23 11" stroke="#749AFE" strokeWidth="2" />
+                <path d="M13 1L23 11L13 21" stroke="#749AFE" strokeWidth="2" />
+              </svg>
+            </Git>
+          </Info>
+        </SessionBottom>
+      </Wrapper>
     </Container>
   );
 };
@@ -45,6 +63,11 @@ const Container = styled.section`
   width: 414px;
   padding: 1rem;
   margin: 0 auto;
+`;
+
+const Wrapper = styled.a`
+  cursor: pointer;
+  text-decoration: none;
 `;
 
 const SessionHeader = styled.div`
@@ -94,6 +117,12 @@ const Title = styled.h1`
 `;
 
 const Info = styled.div`
+  display: flex;
+  justify-content: space-between;
   font-size: 0.8rem;
   opacity: 0.8;
+`;
+
+const Git = styled.div`
+  color: #749afe;
 `;
