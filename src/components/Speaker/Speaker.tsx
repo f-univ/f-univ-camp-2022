@@ -102,11 +102,14 @@ const Session = styled.div`
 
 const SessionInfo = styled.div`
   position: relative;
-  width: 70vw;
   color: white;
+  width: 270px;
   font-size: 1.3rem;
   font-weight: 500;
   padding-left: 0.2rem;
+  @media screen and (min-width: 576px) {
+    width: 414px;
+  }
 `;
 
 const Time = styled.div`
