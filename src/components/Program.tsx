@@ -58,9 +58,12 @@ const SubmitButton = styled.button`
   border: none;
   border-radius: 5px;
   background-color: #4000fa;
-  width: 320px;
+  width: 340px;
   padding: 1rem;
   cursor: pointer;
+  @media screen and (min-width: 576px) {
+    width: 385px;
+  }
 `;
 
 const ProgramDescription = styled.div`
