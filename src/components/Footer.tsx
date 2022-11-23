@@ -7,7 +7,9 @@ const Footer = () => {
         GitHub
       </GitHub>
       <Copy>COPYRIGHT 2022 FE UNIV CONF | 2022</Copy>
-      <Designer>Designed by CHEMIN</Designer>
+      <Designer>
+        Designed by <Email href="mailto:ichexmin@gmail.com">CHEMIN</Email>
+      </Designer>
     </Wrapper>
   );
 };
@@ -38,4 +40,8 @@ const Designer = styled.div`
   opacity: 0.7;
   color: #bdbdbd;
   line-height: 0.5rem;
+`;
+
+const Email = styled.a`
+  text-decoration: underline;
 `;

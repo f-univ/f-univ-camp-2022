@@ -80,6 +80,8 @@ export const global = (
       }
 
       body {
+        display: flex;
+        justify-content: center;
         background-color: #0c0d40;
         cursor: default;
         font-family: 'Spoqa Han Sans Neo', 'sans-serif';

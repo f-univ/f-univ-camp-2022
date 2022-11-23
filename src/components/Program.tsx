@@ -5,7 +5,7 @@ const Program = () => {
     <Wrapper>
       <Year>2022</Year>
       <Title>
-        F -UNIV
+        F - UNIV
         <br />
         Conference
       </Title>
