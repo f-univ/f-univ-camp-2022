@@ -6,6 +6,11 @@ const Program = () => {
       <Year>2022</Year>
       <Title>F.univ Conf</Title>
       <img src="/icons/_3D_logo.svg" height={300} width="100%" alt="3d_logo" />
+      <ProgramArticle>
+        <SubmitButton onClick={() => alert('서비스 준비 중!!')}>
+          지금 신청하기
+        </SubmitButton>
+      </ProgramArticle>
       <Scroll>
         Scroll Down<ScrollWhite> to see more</ScrollWhite>
       </Scroll>
@@ -46,6 +51,19 @@ const Scroll = styled.div`
   font-family: 'Spline Sans Mono Light';
   opacity: 0.9;
   padding: 4rem 0;
+`;
+
+const ProgramArticle = styled.article`
+  padding: 3rem;
+`;
+
+const SubmitButton = styled.button`
+  border: none;
+  border-radius: 5px;
+  background-color: #4000fa;
+  width: 300px;
+  padding: 1rem;
+  cursor: pointer;
 `;
 
 const ScrollWhite = styled.span`
