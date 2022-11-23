@@ -22,7 +22,10 @@ const Speaker = ({ speakInfo }: Prop) => {
         <SessionHeader>
           <InfoWrapper>
             <Session>Session 0{speakInfo.sessionNumber}</Session>
-            <Time>{speakInfo.time}</Time>
+            <SessionInfo>
+              <Time>{speakInfo.time}</Time>
+              <Title>{speakInfo.title}</Title>
+            </SessionInfo>
           </InfoWrapper>
           <SpeakerImage
             width={191}
@@ -32,7 +35,6 @@ const Speaker = ({ speakInfo }: Prop) => {
           />
         </SessionHeader>
         <SessionBottom>
-          <Title>{speakInfo.title}</Title>
           <Info>
             <>
               {speakInfo.univ} {speakInfo.name} · {speakInfo.subTitle}
@@ -79,25 +81,33 @@ const SessionHeader = styled.div`
 const InfoWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 1.4rem;
+  padding: 1rem;
   width: 50%;
+  justify-content: space-between;
 `;
 
 const Session = styled.div`
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.2rem;
   width: 70%;
   background-color: #20232c;
+  font-weight: 300;
 `;
 
-const Time = styled.div`
-  color: black;
+const SessionInfo = styled.div`
+  position: relative;
+  width: 350px;
+  color: white;
   font-size: 1.3rem;
   font-weight: 500;
   padding-left: 0.2rem;
+`;
+
+const Time = styled.div`
+  font-weight: 400;
 `;
 
 const SpeakerImage = styled.img`
