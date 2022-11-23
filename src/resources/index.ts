@@ -11,7 +11,7 @@ export const speakers = [
   },
   {
     name: '김영진',
-    title: 'To. 부트캠프를 준비하는 분들에게',
+    title: '부트캠프를 준비하는 분들에게',
     univ: '아주대',
     subTitle: 'Undefined',
     sessionNumber: 2,
@@ -21,7 +21,7 @@ export const speakers = [
   },
   {
     name: '임광열',
-    title: '나의 첫 번째 취업, 그리고 첫 번째 이직',
+    title: '첫 번째 취업, 그리고 첫 번째 이직',
     univ: '폴리텍대',
     subTitle: '채널톡',
     sessionNumber: 3,

@@ -9,7 +9,7 @@ const Program = () => {
         <br />
         Conference
       </Title>
-      <img src="/icons/_3D_logo.svg" height={400} alt="3d_logo" />
+      <img src="/icons/_3D_logo.svg" height={300} alt="3d_logo" />
       <ProgramArticle>
         <SubmitButton onClick={() => alert('서비스 준비 중!!')}>
           지금 신청하기
