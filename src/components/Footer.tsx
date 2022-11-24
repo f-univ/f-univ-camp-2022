@@ -6,7 +6,7 @@ const Footer = () => {
       <GitHub href="https://github.com/f-univ/f-univ-conf-2022" target="_blank">
         GitHub
       </GitHub>
-      <Copy>COPYRIGHT 2022 FE UNIV CONF | 2022</Copy>
+      <Copy>© COPYRIGHT F - UNIV CONF | 2022</Copy>
       <Designer>
         Designed by <Email href="mailto:ichexmin@gmail.com">CHEMIN</Email>
       </Designer>
