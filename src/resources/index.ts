@@ -33,7 +33,7 @@ export const speakers = [
     name: '차재명',
     title: 'Svelte, 들어보셨나요?',
     univ: '아주대',
-    subTitle: 'KAKAO',
+    subTitle: '비밀',
     sessionNumber: 4,
     time: '14:00 - 14:20',
     imageUrl: '/images/Coreight98_speaker.png',
@@ -53,7 +53,7 @@ export const speakers = [
     name: '박은식',
     title: 'UX',
     univ: '충남대',
-    subTitle: 'TOSS',
+    subTitle: '비밀',
     sessionNumber: 6,
     time: '14:40 - 15:00',
     imageUrl: '/images/qkrdmstlr3_speaker.png',
@@ -89,5 +89,13 @@ export const universities = [
   {
     name: '광운대',
     logo: 'https://w.namu.la/s/ae5ed2bc3f78998d2d5f6bc60adb541daaf889b9bb3e4d5ae311553d2646679706c33d7f2096126494807edd4746dadf81a33e01ea0bc50f5bb622eeb11710ac4372c725e9803c0eccab3985697df0caf44029dff3539bd49a045c8d4212bd8e',
+  },
+  {
+    name: '경상국립대',
+    logo: 'https://www.studyinkorea.go.kr/file/imgpreview.do?filename=510040_logo.gif&fileStorePath=fileStorePath',
+  },
+  {
+    name: '동국대',
+    logo: 'https://obj-sg.thewiki.kr/data/446f6e6767756b5f556e69766572736974795f417574686f726974794c6f676f30322e706e67.png',
   },
 ];
