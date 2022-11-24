@@ -9,7 +9,12 @@ const Program = () => {
         <br />
         Conference
       </Title>
-      <img src="/icons/_3D_logo.svg" height={300} alt="3d_logo" />
+      <Img_3D
+        src="/icons/_3D_logo.svg"
+        width={336}
+        height={300}
+        alt="3d_logo"
+      />
       <ProgramArticle>
         <SubmitButton
           onClick={() => window.open('https://forms.gle/bJQfBroLFCMAaUXu8')}
@@ -66,6 +71,11 @@ const SubmitButton = styled.button`
   @media screen and (min-width: 576px) {
     width: 385px;
   }
+
+  transition: 0.3s all ease;
+  :hover {
+    background-color: #749afe;
+  }
 `;
 
 const ProgramDescription = styled.div`
@@ -76,4 +86,20 @@ const ProgramDescription = styled.div`
 
 const Bold = styled.span`
   font-weight: 500;
+`;
+
+const Img_3D = styled.img`
+  animation: shake 3s infinite linear;
+
+  @keyframes shake {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, 25px);
+    }
+    100% {
+      transform: translate(0, 0px);
+    }
+  }
 `;
