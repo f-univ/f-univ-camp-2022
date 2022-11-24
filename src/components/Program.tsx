@@ -9,6 +9,7 @@ const Program = () => {
         <br />
         Conference
       </Title>
+      <Date>12.18 | 13:00</Date>
       <Img_3D
         src="/icons/_3D_logo.svg"
         width={336}
@@ -52,9 +53,14 @@ const Title = styled.h1`
   font-size: 2.2rem;
   font-weight: 400;
   font-family: 'Konexy Personal Use', sans-serif;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   text-align: center;
   line-height: 2.5rem;
+`;
+
+const Date = styled.p`
+  padding-bottom: 1rem;
+  font-weight: 500;
 `;
 
 const ProgramArticle = styled.article`
@@ -74,7 +80,7 @@ const SubmitButton = styled.button`
 
   transition: 0.3s all ease;
   :hover {
-    background-color: #749afe;
+    background-color: #9772ff;
   }
 `;
 
