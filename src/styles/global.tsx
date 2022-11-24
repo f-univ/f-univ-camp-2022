@@ -41,6 +41,10 @@ export const global = (
         min-height: 100vh;
         text-rendering: optimizeSpeed;
         line-height: 1.5;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
       }
 
       /* A elements that don't have a class get default styles */
