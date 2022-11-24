@@ -9,9 +9,9 @@ const University = () => {
         F - UNIV Conf 2022에 <b>{universities.length}</b>개의 대학이 신청했어요.
       </Title>
       <CardWrapper>
-        {universities.map((v) => (
+        {/* {universities.map((v) => (
           <UnivCard key={v.name} name={v.name} logo={v.logo} />
-        ))}
+        ))} */}
       </CardWrapper>
     </Wrapper>
   );
@@ -20,7 +20,9 @@ const University = () => {
 export default University;
 
 const Wrapper = styled.section`
+  width: 85%;
   padding: 5rem 0 3rem 0;
+  margin: 0 auto;
 `;
 
 const Title = styled.h1`

@@ -17,12 +17,16 @@ const UnivCard = ({ name, logo }: Props) => {
 export default UnivCard;
 
 const Wrapper = styled.section`
+  width: 90px;
   padding: 10px;
   background-color: white;
   border-radius: 10px;
   color: black;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  width: 80px;
+  gap: 4px;
+  font-weight: 600;
+  font-size: 0.8rem;
 `;
