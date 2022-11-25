@@ -45,6 +45,10 @@ export const global = (
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
       }
 
       /* A elements that don't have a class get default styles */
