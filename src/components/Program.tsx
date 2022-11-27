@@ -69,7 +69,7 @@ const Date = styled.p`
 `;
 
 const ProgramArticle = styled.article`
-  padding: 4rem;
+  padding: 1rem 0 4rem 0;
 `;
 
 const SubmitButton = styled.button`
