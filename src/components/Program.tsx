@@ -9,7 +9,7 @@ const Program = () => {
         <br />
         Conference
       </Title>
-      <Date>12.18 | 13:00</Date>
+      <Date>12.18 | 13:00 | 온라인 ZOOM</Date>
       <Img_3D
         src="/icons/_3D_logo.svg"
         width={336}
