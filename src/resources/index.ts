@@ -106,4 +106,8 @@ export const universities = [
     name: '방통대',
     logo: 'https://www.knou.ac.kr/images/guide/sub/img-symbol2.png',
   },
+  {
+    name: '제주대',
+    logo: 'https://w.namu.la/s/dde574323c1400ac95a3296f6a81836b930a02dbe09bbbcdb67f2e9320748b5a4b7a708d0a72d718609d268413512890010e8aa607ae8605ef4d585bfd0861d1cfdf0f42cdcee892beb95839f78563acf63aa209f77f99fcdd7ea2e0b2e279e8',
+  },
 ];
