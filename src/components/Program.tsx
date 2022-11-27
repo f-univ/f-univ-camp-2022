@@ -23,14 +23,14 @@ const Program = () => {
           지금 신청하기
         </SubmitButton>
       </ProgramArticle>
-      <img src="/icons/downArrow.svg" height={14} alt="downarrow" />
-      <ProgramDescription>
-        <Bold>Front-end Developer</Bold>를
-        <br />
-        꿈꾸는 대학생들이
-        <br />
-        한층 더 성장하는 기회!
-      </ProgramDescription>
+      <Arrow>
+        <img
+          src="/icons/downArrow.svg"
+          width="100%"
+          height={14}
+          alt="downarrow"
+        />
+      </Arrow>
     </Wrapper>
   );
 };
@@ -84,16 +84,6 @@ const SubmitButton = styled.button`
   }
 `;
 
-const ProgramDescription = styled.div`
-  font-size: 1.4rem;
-  text-align: center;
-  padding: 4rem 0;
-`;
-
-const Bold = styled.span`
-  font-weight: 600;
-`;
-
 const Img_3D = styled.img`
   animation: shake 3s infinite linear;
 
@@ -108,4 +98,8 @@ const Img_3D = styled.img`
       transform: translate(0, 0px);
     }
   }
+`;
+
+const Arrow = styled.div`
+  padding: 1rem 4rem 4rem 4rem;
 `;
