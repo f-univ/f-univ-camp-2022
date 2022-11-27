@@ -42,7 +42,7 @@ const Info = () => {
         대학생들이 한층 더 성장하는 기회!
       </ProgramDescription>
       <TextWrapper>
-        <img src="/icons/memoji.svg" width="100%" height={252} alt="memoji" />
+        <img src="/images/memoji.png" width="100%" height={252} alt="memoji" />
       </TextWrapper>
     </Wrapper>
   );
