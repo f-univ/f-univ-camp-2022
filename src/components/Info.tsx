@@ -65,7 +65,7 @@ const Wrapper = styled.article`
 `;
 
 const Title = styled.h1`
-  padding: 5rem 0 1rem 0;
+  padding: 3rem 0 1rem 0;
   font-size: 1.5rem;
   font-weight: 400;
   font-family: 'Konexy Personal Use', 'Spoqa Han Sans Neo', 'sans-serif';
@@ -84,5 +84,5 @@ const Bold = styled.span`
 `;
 
 const TextWrapper = styled.div`
-  padding: 2rem;
+  padding: 2rem 2rem 3rem 2rem;
 `;
