@@ -129,7 +129,7 @@ const SessionBottom = styled.div`
 
 const Title = styled.h1`
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: bold;
 `;
 
 const Info = styled.div`

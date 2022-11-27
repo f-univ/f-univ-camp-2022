@@ -31,8 +31,8 @@ const Info = () => {
             y2="7"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4000FA" />
-            <stop offset="1" stop-color="#9772FF" />
+            <stop stopColor="#4000FA" />
+            <stop offset="1" stopColor="#9772FF" />
           </linearGradient>
         </defs>
       </svg>
@@ -51,7 +51,7 @@ const Info = () => {
 export default Info;
 
 const Wrapper = styled.article`
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
   border: 2px solid transparent;
   border-radius: 5px;
