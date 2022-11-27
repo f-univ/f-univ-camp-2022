@@ -1,9 +1,9 @@
 import Footer from '@/components/Footer.js';
+import Info from '@/components/Info';
 import Program from '@/components/Program.jsx';
 import ScrollTop from '@/components/ScrollTop.js';
 import Speakers from '@/components/Speaker/Speakers.jsx';
-import Info from './components/Info';
-// import University from '@/components/University';
+import University from '@/components/University';
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       <Program />
       <Info />
       <Speakers />
-      {/* <University /> */}
+      <University />
       <ScrollTop />
       <Footer />
     </>

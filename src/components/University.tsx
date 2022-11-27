@@ -6,12 +6,13 @@ const University = () => {
   return (
     <Wrapper>
       <Title>
-        F - UNIV Conf 2022에 <b>{universities.length}</b>개의 대학이 신청했어요.
+        F - UNIV Conf에 <br />
+        현재 <b>{universities.length}</b>개의 대학이 신청했어요.
       </Title>
       <CardWrapper>
-        {/* {universities.map((v) => (
+        {universities.map((v) => (
           <UnivCard key={v.name} name={v.name} logo={v.logo} />
-        ))} */}
+        ))}
       </CardWrapper>
     </Wrapper>
   );
@@ -23,11 +24,15 @@ const Wrapper = styled.section`
   width: 85%;
   padding: 5rem 0 3rem 0;
   margin: 0 auto;
+  @media screen and (min-width: 576px) {
+    width: 414px;
+  }
 `;
 
 const Title = styled.h1`
   font-size: 1.4rem;
   text-align: center;
+  font-family: 'Konexy Personal Use', 'Spoqa Han Sans Neo', 'sans-serif';
   font-weight: 400;
   padding-bottom: 2rem;
 `;
@@ -35,4 +40,6 @@ const Title = styled.h1`
 const CardWrapper = styled.div`
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 `;
