@@ -3,7 +3,9 @@ import Info from '@/components/Info';
 import Program from '@/components/Program.jsx';
 import ScrollTop from '@/components/ScrollTop.js';
 import Speakers from '@/components/Speaker/Speakers.jsx';
-import University from '@/components/University';
+import { lazy, Suspense } from 'react';
+
+const University = lazy(() => import('@/components/University'));
 
 const App = () => {
   return (
@@ -11,7 +13,9 @@ const App = () => {
       <Program />
       <Info />
       <Speakers />
-      <University />
+      <Suspense fallback={<div>Loading...</div>}>
+        <University />
+      </Suspense>
       <ScrollTop />
       <Footer />
     </>
