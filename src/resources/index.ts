@@ -98,4 +98,12 @@ export const universities = [
     name: '동국대',
     logo: 'https://obj-sg.thewiki.kr/data/446f6e6767756b5f556e69766572736974795f417574686f726974794c6f676f30322e706e67.png',
   },
+  {
+    name: '한국외대',
+    logo: 'https://www.unamwiki.org/w/images/0/0a/%ED%95%9C%EA%B5%AD%EC%99%B8%EA%B5%AD%EC%96%B4%EB%8C%80%ED%95%99%EA%B5%90_%EC%8B%AC%EB%B2%8C.gif',
+  },
+  {
+    name: '방통대',
+    logo: 'https://www.knou.ac.kr/images/guide/sub/img-symbol2.png',
+  },
 ];
