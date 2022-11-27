@@ -9,13 +9,15 @@ const Program = () => {
         <br />
         Conference
       </Title>
-      <Date>12.18 | 13:00 | 온라인 ZOOM</Date>
       <Img_3D
         src="/icons/_3D_logo.svg"
         width={336}
         height={300}
         alt="3d_logo"
       />
+      <Date>
+        <span>12월 18일</span> | <span>13:00</span> | <span>온라인 ZOOM</span>
+      </Date>
       <ProgramArticle>
         <SubmitButton
           onClick={() => window.open('https://forms.gle/bJQfBroLFCMAaUXu8')}
@@ -59,8 +61,11 @@ const Title = styled.h1`
 `;
 
 const Date = styled.p`
-  padding-bottom: 1rem;
+  padding-top: 1rem;
   font-weight: 500;
+  font-size: 1.1rem;
+  display: flex;
+  gap: 1rem;
 `;
 
 const ProgramArticle = styled.article`

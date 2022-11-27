@@ -75,7 +75,7 @@ const Title = styled.h1`
 
 const ProgramDescription = styled.div`
   padding: 2rem 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: center;
 `;
 
