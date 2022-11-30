@@ -62,7 +62,7 @@ const Speaker = ({ speakInfo }: Prop) => {
 export default Speaker;
 
 const Container = styled.section`
-  width: 80%;
+  width: 85%;
   padding: 1rem 0;
   margin: 0 auto;
   @media screen and (min-width: 576px) {
@@ -136,7 +136,7 @@ const SessionBottom = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: 'Pretendard-Medium';
   font-weight: bold;
 `;

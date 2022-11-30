@@ -39,6 +39,7 @@ const Title = styled.h1`
   text-align: center;
   font-weight: 600;
   padding-bottom: 2rem;
+  margin: 0 auto;
 `;
 
 const CardWrapper = styled.div`
@@ -50,4 +51,5 @@ const CardWrapper = styled.div`
 
 const KoTitle = styled.span`
   font-size: 1.4rem;
+  text-align: center;
 `;

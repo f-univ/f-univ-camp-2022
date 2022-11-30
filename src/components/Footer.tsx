@@ -27,7 +27,7 @@ const GitHub = styled.a`
   color: #4f4f4f;
   background-color: #ffffff;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.9rem;
   border: 1px solid;
   font-size: 0.9rem;
   cursor: pointer;

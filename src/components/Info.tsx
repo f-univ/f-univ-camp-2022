@@ -59,7 +59,7 @@ const Info = () => {
 export default Info;
 
 const Wrapper = styled.article`
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   border-radius: 5px;
   background-color: #406bee;

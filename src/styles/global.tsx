@@ -95,7 +95,7 @@ export const global = (
         justify-content: center;
         background-color: #ccdaff;
         cursor: default;
-        font-family: 'Pretendard-Regular', 'sans-serif';
+        font-family: 'Pretendard-Medium', 'sans-serif';
       }
     `}
   />
