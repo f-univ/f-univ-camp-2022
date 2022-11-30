@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 const Footer = () => {
   return (
     <Wrapper>
-      <GitHub href="https://github.com/f-univ/f-univ-conf-2022" target="_blank">
+      <GitHub href="https://github.com/f-univ/f-univ-camp-2022" target="_blank">
         GitHub 보러가기
       </GitHub>
       <Copy>© COPYRIGHT F - UNIV CAMP | 2022</Copy>
