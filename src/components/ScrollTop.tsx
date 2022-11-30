@@ -12,7 +12,7 @@ const ScrollTop = () => {
     <Wrapper onClick={handleScroll}>
       <Text>
         Participate in
-        <br /> F - UNIV CONFERENCE
+        <br /> F - UNIV CAMPERENCE
       </Text>
       <svg
         width="25"
@@ -37,10 +37,12 @@ export default ScrollTop;
 const Wrapper = styled.button`
   width: 414px;
   height: 6rem;
-  background-color: #4000fa;
+  color: white;
+  background-color: #406bee;
   display: flex;
   margin: 0 auto;
   align-items: center;
+  font-family: 'Pretendard-Medium';
   justify-content: space-around;
   border: none;
   cursor: pointer;

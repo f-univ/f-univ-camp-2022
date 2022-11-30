@@ -8,7 +8,6 @@ export const global = (
       *::before,
       *::after {
         box-sizing: border-box;
-        color: white;
       }
 
       /* Remove default margin */
@@ -94,9 +93,9 @@ export const global = (
       body {
         display: flex;
         justify-content: center;
-        background-color: #0c0d40;
+        background-color: #ccdaff;
         cursor: default;
-        font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+        font-family: 'Pretendard-Regular', 'sans-serif';
       }
     `}
   />
