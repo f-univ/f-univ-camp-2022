@@ -21,11 +21,10 @@ const Wrapper = styled.footer`
   text-align: center;
   font-size: 0.8rem;
   line-height: 2rem;
-  background-color: #f5f5f5;
 `;
 
 const GitHub = styled.a`
-  color: #969696;
+  color: #4f4f4f;
   background-color: #ffffff;
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -37,17 +36,17 @@ const GitHub = styled.a`
 
 const Copy = styled.div`
   opacity: 0.8;
-  color: #969696;
+  color: #828282;
 `;
 
 const Designer = styled.div`
   font-size: 0.7rem;
   opacity: 0.7;
-  color: #969696;
+  color: #828282;
   line-height: 0.5rem;
 `;
 
 const Email = styled.a`
   text-decoration: underline;
-  color: #969696;
+  color: #828282;
 `;

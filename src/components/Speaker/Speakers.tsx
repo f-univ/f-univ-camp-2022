@@ -21,7 +21,7 @@ export default Speakers;
 
 const Title = styled.h1`
   padding: 5rem 0 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #406bee;
   font-family: 'Pretendard-Medium';
   font-weight: bold;

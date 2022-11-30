@@ -95,13 +95,17 @@ const Session = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.2rem;
-  width: 70%;
+  padding: 0.2rem 0 0.1rem 0;
+  width: 60%;
   font-family: 'Pretendard-Medium';
   font-weight: bold;
   background-color: white;
   color: #406bee;
   font-size: 0.8rem;
+
+  @media screen and (min-width: 576px) {
+    width: 90px;
+  }
 `;
 
 const SessionInfo = styled.div`
@@ -117,7 +121,7 @@ const SessionInfo = styled.div`
 `;
 
 const Time = styled.div`
-  font-weight: 400;
+  font-family: 'Pretendard-Medium';
 `;
 
 const SpeakerImage = styled.img`
@@ -132,7 +136,8 @@ const SessionBottom = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  font-family: 'Pretendard-Medium';
   font-weight: bold;
 `;
 

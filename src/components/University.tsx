@@ -35,7 +35,7 @@ const Wrapper = styled.section`
 const Title = styled.h1`
   font-family: 'Sportsball Regular', 'Pretendard-Medium';
   color: #406bee;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   font-weight: 600;
   padding-bottom: 2rem;
@@ -49,5 +49,5 @@ const CardWrapper = styled.div`
 `;
 
 const KoTitle = styled.span`
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 `;
