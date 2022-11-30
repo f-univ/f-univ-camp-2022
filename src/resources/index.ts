@@ -88,7 +88,7 @@ export const universities = [
   },
   {
     name: '광운대',
-    logo: 'https://w.namu.la/s/ae5ed2bc3f78998d2d5f6bc60adb541daaf889b9bb3e4d5ae311553d2646679706c33d7f2096126494807edd4746dadf81a33e01ea0bc50f5bb622eeb11710ac4372c725e9803c0eccab3985697df0caf44029dff3539bd49a045c8d4212bd8e',
+    logo: 'https://play-lh.googleusercontent.com/CmsB0Xd2KsQde0R3-ryxw2IPLfum6dmeWNhJcAg5LTgSv-vBxOGRDr1TaEVPWE1fAfU=w480-h960-rw',
   },
   {
     name: '경상국립대',

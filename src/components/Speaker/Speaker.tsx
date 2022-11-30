@@ -137,8 +137,7 @@ const SessionBottom = styled.div`
 
 const Title = styled.h1`
   font-size: 1.2rem;
-  font-family: 'Pretendard-Medium';
-  font-weight: bold;
+  font-family: 'Pretendard-ExtraBold';
 `;
 
 const Info = styled.div`

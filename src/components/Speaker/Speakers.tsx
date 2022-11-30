@@ -23,7 +23,7 @@ const Title = styled.h1`
   padding: 5rem 0 1rem 0;
   font-size: 1.4rem;
   color: #406bee;
-  font-family: 'Pretendard-Medium';
+  font-family: 'Pretendard-ExtraBold';
   font-weight: bold;
   text-align: center;
   line-height: 2rem;

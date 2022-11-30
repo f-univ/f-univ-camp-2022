@@ -64,7 +64,7 @@ const Date = styled.p`
   font-size: 1.1rem;
   color: #406bee;
   display: flex;
-  gap: 1.4rem;
+  gap: 1.2rem;
 `;
 
 const ProgramArticle = styled.article`

@@ -4,7 +4,7 @@ const Info = () => {
   return (
     <Wrapper>
       <Title>
-        F - UNIV
+        F - UNIV CAMP
         <TitleSVG>
           어떤건가요?
           <svg
