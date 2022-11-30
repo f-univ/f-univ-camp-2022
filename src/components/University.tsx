@@ -6,11 +6,7 @@ const University = () => {
   return (
     <Wrapper>
       <Title>
-        F - UNIV CAMP
-        <KoTitle>
-          에 <br />
-          현재 <b>{universities.length}</b>개의 대학이 신청했어요
-        </KoTitle>
+        현재 <b>{universities.length}</b>개의 대학이 신청했어요
       </Title>
       <CardWrapper>
         {universities.map((v) => (
@@ -25,7 +21,7 @@ export default University;
 
 const Wrapper = styled.section`
   width: 85%;
-  padding: 5rem 0 3rem 0;
+  padding: 64px 0 3rem 0;
   margin: 0 auto;
   @media screen and (min-width: 576px) {
     width: 414px;
@@ -33,9 +29,9 @@ const Wrapper = styled.section`
 `;
 
 const Title = styled.h1`
-  font-family: 'Sportsball Regular', 'Pretendard-ExtraBold';
+  font-family: 'Pretendard-ExtraBold';
   color: #406bee;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   text-align: center;
   font-weight: 600;
   padding-bottom: 2rem;
@@ -47,10 +43,4 @@ const CardWrapper = styled.div`
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-`;
-
-const KoTitle = styled.span`
-  font-size: 1.4rem;
-
-  text-align: center;
 `;
