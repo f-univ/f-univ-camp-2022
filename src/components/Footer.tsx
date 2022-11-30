@@ -21,10 +21,12 @@ const Wrapper = styled.footer`
   text-align: center;
   font-size: 0.8rem;
   line-height: 2rem;
+  background-color: #f5f5f5;
 `;
 
 const GitHub = styled.a`
   color: #969696;
+  background-color: #ffffff;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border: 1px solid;

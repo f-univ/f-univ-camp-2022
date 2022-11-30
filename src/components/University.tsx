@@ -6,8 +6,11 @@ const University = () => {
   return (
     <Wrapper>
       <Title>
-        F - UNIV CAMP에 <br />
-        현재 <b>{universities.length}</b>개의 대학이 신청했어요.
+        F - UNIV CAMP
+        <KoTitle>
+          에 <br />
+          현재 <b>{universities.length}</b>개의 대학이 신청했어요
+        </KoTitle>
       </Title>
       <CardWrapper>
         {universities.map((v) => (
@@ -32,7 +35,7 @@ const Wrapper = styled.section`
 const Title = styled.h1`
   font-family: 'Sportsball Regular', 'Pretendard-Medium';
   color: #406bee;
-  font-size: 1.4rem;
+  font-size: 1rem;
   text-align: center;
   font-weight: 600;
   padding-bottom: 2rem;
@@ -43,4 +46,8 @@ const CardWrapper = styled.div`
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
+`;
+
+const KoTitle = styled.span`
+  font-size: 1.3rem;
 `;

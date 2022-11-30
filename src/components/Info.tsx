@@ -70,11 +70,11 @@ const Wrapper = styled.article`
 
 const Title = styled.h1`
   padding: 3rem 0 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   font-family: 'Sportsball Regular', 'Pretendard-Medium';
   text-align: center;
-  line-height: 2rem;
+  line-height: 2.2rem;
   color: white;
 `;
 
@@ -83,6 +83,7 @@ const TitleSVG = styled.span`
   align-items: center;
   justify-content: center;
   gap: 5px;
+  font-size: 1.6rem;
 `;
 
 const ProgramDescription = styled.div`

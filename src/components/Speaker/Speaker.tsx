@@ -96,10 +96,12 @@ const Session = styled.div`
   align-items: center;
   justify-content: center;
   padding: 0.2rem;
-  width: 80%;
+  width: 70%;
+  font-family: 'Pretendard-Medium';
+  font-weight: bold;
   background-color: white;
   color: #406bee;
-  font-weight: 600;
+  font-size: 0.8rem;
 `;
 
 const SessionInfo = styled.div`

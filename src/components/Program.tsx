@@ -54,11 +54,12 @@ const Title = styled.h1`
   font-family: 'Sportsball Regular';
   padding-bottom: 1rem;
   text-align: center;
-  line-height: 2.5rem;
+  line-height: 3.5rem;
 `;
 
 const Date = styled.p`
-  padding-top: 1rem;
+  padding-top: 1.6rem;
+  font-family: 'Pretendard-Medium';
   font-weight: bold;
   font-size: 1.1rem;
   color: #406bee;
@@ -67,7 +68,7 @@ const Date = styled.p`
 `;
 
 const ProgramArticle = styled.article`
-  padding: 1rem 0 4rem 0;
+  padding: 1.6rem 0 4rem 0;
 `;
 
 const SubmitButton = styled.button`

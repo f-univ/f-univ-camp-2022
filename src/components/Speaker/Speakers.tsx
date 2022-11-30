@@ -22,9 +22,9 @@ export default Speakers;
 const Title = styled.h1`
   padding: 5rem 0 1rem 0;
   font-size: 1.5rem;
-  font-weight: 400;
   color: #406bee;
-  font-family: 'Pretendard-SemiBold';
+  font-family: 'Pretendard-Medium';
+  font-weight: bold;
   text-align: center;
   line-height: 2rem;
   display: flex;
