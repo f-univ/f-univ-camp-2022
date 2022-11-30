@@ -62,8 +62,7 @@ const Speaker = ({ speakInfo }: Prop) => {
 export default Speaker;
 
 const Container = styled.section`
-  width: 85%;
-  padding: 1rem;
+  width: 80%;
   margin: 0 auto;
   @media screen and (min-width: 576px) {
     width: 414px;
