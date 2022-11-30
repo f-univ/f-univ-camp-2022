@@ -6,8 +6,6 @@ const Speakers = () => {
   return (
     <>
       <Title>
-        <img src="/images/Loudspeaker.png" width={40} />
-        <br />
         대학생 스피커들은
         <br />
         어떤 내용을 공유하나요?

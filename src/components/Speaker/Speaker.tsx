@@ -96,7 +96,7 @@ const Session = styled.div`
   align-items: center;
   justify-content: center;
   padding: 0.2rem;
-  width: 60%;
+  width: 80%;
   background-color: white;
   color: #406bee;
   font-weight: 600;
