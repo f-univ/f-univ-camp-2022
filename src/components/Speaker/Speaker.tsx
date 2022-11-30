@@ -63,6 +63,7 @@ export default Speaker;
 
 const Container = styled.section`
   width: 80%;
+  padding: 1rem 0;
   margin: 0 auto;
   @media screen and (min-width: 576px) {
     width: 414px;
