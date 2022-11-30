@@ -1,7 +1,7 @@
 {
   "name": "f-univ-camp-2022",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
