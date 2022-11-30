@@ -28,8 +28,8 @@ const Speaker = ({ speakInfo }: Prop) => {
             </SessionInfo>
           </InfoWrapper>
           <SpeakerImage
-            width={191}
-            height={170}
+            width="100%"
+            height="100%"
             src={speakInfo.imageUrl}
             alt="speaker"
           />
@@ -48,8 +48,8 @@ const Speaker = ({ speakInfo }: Prop) => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M0 11L23 11" stroke="#749AFE" strokeWidth="2" />
-                <path d="M13 1L23 11L13 21" stroke="#749AFE" strokeWidth="2" />
+                <path d="M0 11L23 11" stroke="#ffe484" strokeWidth="2" />
+                <path d="M13 1L23 11L13 21" stroke="#ffe484" strokeWidth="2" />
               </svg>
             </Git>
           </Info>
@@ -71,6 +71,7 @@ const Container = styled.section`
 `;
 
 const Wrapper = styled.a`
+  color: white;
   cursor: pointer;
   text-decoration: none;
 `;
@@ -95,9 +96,10 @@ const Session = styled.div`
   align-items: center;
   justify-content: center;
   padding: 0.2rem;
-  width: 70%;
-  background-color: #20232c;
-  font-weight: 300;
+  width: 60%;
+  background-color: white;
+  color: #406bee;
+  font-weight: 600;
 `;
 
 const SessionInfo = styled.div`
@@ -140,5 +142,5 @@ const Info = styled.div`
 `;
 
 const Git = styled.div`
-  color: #749afe;
+  color: #ffe484;
 `;

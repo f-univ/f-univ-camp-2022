@@ -1,6 +1,6 @@
 <div align="center">
 
-# **F.univ conf 2022**
+# **F - UNIV CAMP 2022**
 
 <img src="public/icons/_3D_logo.svg" width="350px"><br>
 Front-end Developer를

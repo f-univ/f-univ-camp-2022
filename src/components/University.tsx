@@ -6,7 +6,7 @@ const University = () => {
   return (
     <Wrapper>
       <Title>
-        F - UNIV Conf에 <br />
+        F - UNIV CAMP에 <br />
         현재 <b>{universities.length}</b>개의 대학이 신청했어요.
       </Title>
       <CardWrapper>
@@ -30,10 +30,11 @@ const Wrapper = styled.section`
 `;
 
 const Title = styled.h1`
+  font-family: 'Sportsball Regular', 'Pretendard-Medium';
+  color: #406bee;
   font-size: 1.4rem;
   text-align: center;
-  font-family: 'Konexy Personal Use', 'Spoqa Han Sans Neo', 'sans-serif';
-  font-weight: 400;
+  font-weight: 600;
   padding-bottom: 2rem;
 `;
 

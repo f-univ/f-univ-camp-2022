@@ -4,11 +4,7 @@ const Program = () => {
   return (
     <Wrapper>
       <Year>2022</Year>
-      <Title>
-        F - UNIV
-        <br />
-        Conference
-      </Title>
+      <Title>F - UNIV CAMP</Title>
       <Img_3D
         src="/icons/_3D_logo.svg"
         width={336}
@@ -22,7 +18,7 @@ const Program = () => {
         <SubmitButton
           onClick={() => window.open('https://forms.gle/bJQfBroLFCMAaUXu8')}
         >
-          지금 신청하기
+          신청할래요!
         </SubmitButton>
       </ProgramArticle>
       <Arrow>
@@ -47,14 +43,15 @@ const Wrapper = styled.div`
 `;
 
 const Year = styled.div`
-  font-size: 1.2rem;
-  font-family: 'Konexy Personal Use', sans-serif;
+  color: #406bee;
+  font-size: 1rem;
+  font-family: 'Sportsball Regular';
 `;
 
 const Title = styled.h1`
-  font-size: 2.2rem;
-  font-weight: 400;
-  font-family: 'Konexy Personal Use', sans-serif;
+  color: #406bee;
+  font-size: 1.4rem;
+  font-family: 'Sportsball Regular';
   padding-bottom: 1rem;
   text-align: center;
   line-height: 2.5rem;
@@ -62,8 +59,9 @@ const Title = styled.h1`
 
 const Date = styled.p`
   padding-top: 1rem;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 1.1rem;
+  color: #406bee;
   display: flex;
   gap: 1rem;
 `;
@@ -75,7 +73,9 @@ const ProgramArticle = styled.article`
 const SubmitButton = styled.button`
   border: none;
   border-radius: 5px;
-  background-color: #4000fa;
+  background-color: #406bee;
+  font-weight: bold;
+  color: white;
   width: 340px;
   padding: 1rem;
   cursor: pointer;
@@ -85,7 +85,7 @@ const SubmitButton = styled.button`
 
   transition: 0.3s all ease;
   :hover {
-    background-color: #9772ff;
+    background-color: #7646ff;
   }
 `;
 

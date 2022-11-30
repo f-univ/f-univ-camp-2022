@@ -6,7 +6,9 @@ const Speakers = () => {
   return (
     <>
       <Title>
-        Speaker는
+        <img src="/images/Loudspeaker.png" width={40} />
+        <br />
+        대학생 스피커들은
         <br />
         어떤 내용을 공유하나요?
       </Title>
@@ -23,7 +25,11 @@ const Title = styled.h1`
   padding: 5rem 0 1rem 0;
   font-size: 1.5rem;
   font-weight: 400;
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  color: #406bee;
+  font-family: 'Pretendard-SemiBold';
   text-align: center;
   line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;

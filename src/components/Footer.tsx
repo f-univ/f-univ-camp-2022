@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <Wrapper>
       <GitHub href="https://github.com/f-univ/f-univ-conf-2022" target="_blank">
-        GitHub
+        GitHub 보러가기
       </GitHub>
-      <Copy>© COPYRIGHT F - UNIV CONF | 2022</Copy>
+      <Copy>© COPYRIGHT F - UNIV CAMP | 2022</Copy>
       <Designer>
         Designed by <Email href="mailto:ichexmin@gmail.com">CHEMIN</Email>
       </Designer>
@@ -24,24 +24,28 @@ const Wrapper = styled.footer`
 `;
 
 const GitHub = styled.a`
-  color: white;
-  text-decoration: underline;
+  color: #969696;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid;
   font-size: 0.9rem;
   cursor: pointer;
+  border-radius: 5px;
 `;
 
 const Copy = styled.div`
   opacity: 0.8;
-  color: #bdbdbd;
+  color: #969696;
 `;
 
 const Designer = styled.div`
   font-size: 0.7rem;
   opacity: 0.7;
-  color: #bdbdbd;
+  color: #969696;
   line-height: 0.5rem;
 `;
 
 const Email = styled.a`
   text-decoration: underline;
+  color: #969696;
 `;
