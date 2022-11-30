@@ -114,4 +114,24 @@ export const universities = [
     name: '중앙대',
     logo: 'https://cdn.imweb.me/upload/S20220110272a63018edd9/96adb5febf7dd.png',
   },
+  {
+    name: '가천대',
+    logo: 'https://www.gachon.ac.kr/sites/kor/images/sub/slogan_3.png',
+  },
+  {
+    name: '단국대',
+    logo: 'https://www.dankook.ac.kr/html_repositories/images/www/kor_content/est_ui_int01.jpg',
+  },
+  {
+    name: '부산대',
+    logo: 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbVDUi3%2FbtrpozcmjEv%2FMmVG7njKeJbD9AR1ItXNz1%2Fimg.png',
+  },
+  {
+    name: '성결대',
+    logo: 'https://w.namu.la/s/591cd303a6eae690adbe2a8d2fe8f11b10440a363933ed5a28a3f3c3c01568adccbdcd82c1d0e415516ca439218359069528bfaf0f58227afa0a53c574be1568cfa00b8fd956c6994995ac0ced4391bbe808423cba590d5232f666775fa66e85',
+  },
+  {
+    name: '한동대',
+    logo: 'https://www.handong.edu/site/handong/res/img/sub_802-02.png',
+  },
 ];
