@@ -33,7 +33,7 @@ export const speakers = [
     name: '차재명',
     title: 'Svelte, 들어보셨나요?',
     univ: '아주대',
-    subTitle: '비밀',
+    subTitle: 'KAKAO',
     sessionNumber: 4,
     time: '14:00 - 14:20',
     imageUrl: '/images/Coreight98_speaker.png',
@@ -53,7 +53,7 @@ export const speakers = [
     name: '박은식',
     title: 'UX',
     univ: '충남대',
-    subTitle: '비밀',
+    subTitle: 'TOSS',
     sessionNumber: 6,
     time: '14:40 - 15:00',
     imageUrl: '/images/qkrdmstlr3_speaker.png',
@@ -109,5 +109,9 @@ export const universities = [
   {
     name: '제주대',
     logo: 'https://w.namu.la/s/dde574323c1400ac95a3296f6a81836b930a02dbe09bbbcdb67f2e9320748b5a4b7a708d0a72d718609d268413512890010e8aa607ae8605ef4d585bfd0861d1cfdf0f42cdcee892beb95839f78563acf63aa209f77f99fcdd7ea2e0b2e279e8',
+  },
+  {
+    name: '중앙대',
+    logo: 'https://cdn.imweb.me/upload/S20220110272a63018edd9/96adb5febf7dd.png',
   },
 ];
