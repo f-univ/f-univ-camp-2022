@@ -134,4 +134,28 @@ export const universities = [
     name: '한동대',
     logo: 'https://www.handong.edu/site/handong/res/img/sub_802-02.png',
   },
+  {
+    name: '한국체대',
+    logo: 'https://play-lh.googleusercontent.com/rcj1hy1RP5ytzWLOSB-QxQYJe1-o4h-2kqkgHtC4ZH6kra90s0inthsgpJ1PxxW6BQ=w480-h960-rw',
+  },
+  {
+    name: '부산외대',
+    logo: 'https://play-lh.googleusercontent.com/zOoBO8f7hk4UK7UaQTSV6IKKgqdeaKh2gQrSBlMqm6pG9z6NqnfQSONYQUkYH8dkmPs=w480-h960-rw',
+  },
+  {
+    name: '청주대',
+    logo: 'https://www.cju.ac.kr/site/www/images/contents/cts4420_symbol1.gif',
+  },
+  {
+    name: '한국공학대',
+    logo: 'https://www.tukorea.ac.kr/sites/tukorea/images/sub/symbol_mark_1_1.jpg',
+  },
+  {
+    name: '경남대',
+    logo: 'https://www.kyungnam.ac.kr/sites/ko/images/sub/main-color_1.png',
+  },
+  {
+    name: '금오공대',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/f/f5/KIT_symbol_logo.jpg',
+  },
 ];
