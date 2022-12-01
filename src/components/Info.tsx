@@ -50,7 +50,7 @@ const Info = () => {
         사랑하는 대학생님들아 모여!!!
       </ProgramDescription>
       <TextWrapper>
-        <img src="/images/memoji.png" width="100%" height="100%" alt="memoji" />
+        <Memoji src="/images/memoji.png" alt="memoji" />
       </TextWrapper>
     </Wrapper>
   );
@@ -99,4 +99,9 @@ const Bold = styled.span`
 
 const TextWrapper = styled.div`
   padding: 2rem 2rem 3rem 2rem;
+`;
+
+const Memoji = styled.img`
+  width: 100%;
+  aspect-ratio: 644/383;
 `;

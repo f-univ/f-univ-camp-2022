@@ -27,12 +27,7 @@ const Speaker = ({ speakInfo }: Prop) => {
               <Title>{speakInfo.title}</Title>
             </SessionInfo>
           </InfoWrapper>
-          <SpeakerImage
-            width="100%"
-            height="100%"
-            src={speakInfo.imageUrl}
-            alt="speaker"
-          />
+          <SpeakerImage src={speakInfo.imageUrl} alt="speaker" />
         </SessionHeader>
         <SessionBottom>
           <Info>
@@ -127,6 +122,7 @@ const Time = styled.div`
 const SpeakerImage = styled.img`
   padding-right: 1rem;
   width: 50%;
+  aspect-ratio: 207 / 181;
 `;
 
 const SessionBottom = styled.div`
