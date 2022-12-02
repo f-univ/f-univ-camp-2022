@@ -158,4 +158,24 @@ export const universities = [
     name: '금오공대',
     logo: 'https://upload.wikimedia.org/wikipedia/en/f/f5/KIT_symbol_logo.jpg',
   },
+  {
+    name: '시립대',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/University_of_Seoul.svg/768px-University_of_Seoul.svg.png',
+  },
+  {
+    name: '서경대',
+    logo: 'https://www.skuniv.ac.kr/share/img/page/symbols/symbols_07_01.png',
+  },
+  {
+    name: '동아대',
+    logo: 'https://www.donga.ac.kr/Web2017/Sub/001004001_2021_symbol.jpg',
+  },
+  {
+    name: '숙명여대',
+    logo: 'https://www.sookmyung.ac.kr/sites/sookmyungkr/images/sub/contents/ui_symbol_01.png',
+  },
+  {
+    name: '덕성여대',
+    logo: 'https://www.duksung.ac.kr/uploads/CONTENTS/site/duksung/duksung_symbol.png',
+  },
 ];
