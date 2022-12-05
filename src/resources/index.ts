@@ -178,4 +178,24 @@ export const universities = [
     name: '덕성여대',
     logo: 'https://www.duksung.ac.kr/uploads/CONTENTS/site/duksung/duksung_symbol.png',
   },
+  {
+    name: '가톨릭대',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/The_Catholic_University_of_Korea.jpg/300px-The_Catholic_University_of_Korea.jpg',
+  },
+  {
+    name: '성공회대',
+    logo: 'https://www.skhu.ac.kr/sites/skhu/images/sub/ui_1.png',
+  },
+  {
+    name: '동의대',
+    logo: 'https://www.deu.ac.kr/site/resource/www/images/sub010501-symbol1.png',
+  },
+  {
+    name: '한양대',
+    logo: 'https://www.hanyang.ac.kr/html-repositories/images/custom/introduction/img_hy0104_02_0102.png',
+  },
+  {
+    name: '전북대',
+    logo: 'https://www.jbnu.ac.kr/kor/images/227_10.jpg',
+  },
 ];
