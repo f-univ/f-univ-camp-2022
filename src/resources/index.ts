@@ -198,4 +198,28 @@ export const universities = [
     name: '전북대',
     logo: 'https://www.jbnu.ac.kr/kor/images/227_10.jpg',
   },
+  {
+    name: '인제대',
+    logo: 'https://www.inje.ac.kr/kor/assets/images/sub/ui-logo.png',
+  },
+  {
+    name: '대진대',
+    logo: 'https://majormap.s3.ap-northeast-2.amazonaws.com/images/university-emblems/%E1%84%83%E1%85%A2%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%A1%E1%86%A8%E1%84%80%E1%85%AD.svg',
+  },
+  {
+    name: '영남대',
+    logo: 'https://postfiles.pstatic.net/MjAyMTA3MjFfODkg/MDAxNjI2ODQ2NDYyNDYx.RePHwLBuyUGSh-5JFt_3k3mXcuc5NbikYsLHeIGpm-4g.gz3zX7-mS-KoxVqXPuRrwLVMVEHTHCvAN8Qrwn0fKXIg.PNG.eduplex_jinhakipsi/20210721_142451.png?type=w966',
+  },
+  {
+    name: '경희대',
+    logo: 'https://www.khu.ac.kr/kor/resources/user/img/pc/contents/sub/imgSub0401.jpg',
+  },
+  {
+    name: '과기대',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Seoultech_LOGO.png/180px-Seoultech_LOGO.png',
+  },
+  {
+    name: '항공대',
+    logo: 'https://www.kau.ac.kr/cmm_typeA/images/sub/new_emblem.png',
+  },
 ];
