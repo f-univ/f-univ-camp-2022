@@ -208,7 +208,7 @@ export const universities = [
   },
   {
     name: '영남대',
-    logo: 'https://postfiles.pstatic.net/MjAyMTA3MjFfODkg/MDAxNjI2ODQ2NDYyNDYx.RePHwLBuyUGSh-5JFt_3k3mXcuc5NbikYsLHeIGpm-4g.gz3zX7-mS-KoxVqXPuRrwLVMVEHTHCvAN8Qrwn0fKXIg.PNG.eduplex_jinhakipsi/20210721_142451.png?type=w966',
+    logo: 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F245F8D50591B28731A',
   },
   {
     name: '경희대',
