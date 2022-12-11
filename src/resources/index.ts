@@ -222,4 +222,24 @@ export const universities = [
     name: '항공대',
     logo: 'https://www.kau.ac.kr/cmm_typeA/images/sub/new_emblem.png',
   },
+  {
+    name: '한밭대',
+    logo: 'https://www.hanbat.ac.kr/images/kor/sub01/sub01_010301_img03.png',
+  },
+  {
+    name: '건국대',
+    logo: 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FesugIB%2Fbtqwv7PLOZT%2FoMb10ItMqbhdX0dKomtDQ0%2Fimg.jpg',
+  },
+  {
+    name: '순천향대',
+    logo: 'https://cdn.dtnews24.com/news/photo/202210/733084_339596_336.jpg',
+  },
+  {
+    name: '경북대',
+    logo: 'https://www.knu.ac.kr/wbbs/img/intro/ui_emblem01.jpg',
+  },
+  {
+    name: '원광대',
+    logo: 'https://www.wdu.ac.kr/images/contents/informationU/symbol_a.png',
+  },
 ];
