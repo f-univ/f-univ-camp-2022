@@ -108,7 +108,7 @@ export const universities = [
   },
   {
     name: '제주대',
-    logo: 'https://w.namu.la/s/dde574323c1400ac95a3296f6a81836b930a02dbe09bbbcdb67f2e9320748b5a4b7a708d0a72d718609d268413512890010e8aa607ae8605ef4d585bfd0861d1cfdf0f42cdcee892beb95839f78563acf63aa209f77f99fcdd7ea2e0b2e279e8',
+    logo: 'https://d1qzykz9iz00c7.cloudfront.net/static/logo_new/logo_c187.png',
   },
   {
     name: '중앙대',
@@ -128,7 +128,7 @@ export const universities = [
   },
   {
     name: '성결대',
-    logo: 'https://w.namu.la/s/591cd303a6eae690adbe2a8d2fe8f11b10440a363933ed5a28a3f3c3c01568adccbdcd82c1d0e415516ca439218359069528bfaf0f58227afa0a53c574be1568cfa00b8fd956c6994995ac0ced4391bbe808423cba590d5232f666775fa66e85',
+    logo: 'https://www.sungkyul.ac.kr/sites/skukr/images/sub/ui_img_1.png',
   },
   {
     name: '한동대',
