@@ -1,4 +1,14 @@
 import styled from '@emotion/styled';
+import CountDownTimer from './CountDownTimer';
+
+const campDay = new window.Date('2022-12-18T11:00:00').getTime();
+const now = new window.Date().getTime();
+const count = campDay - now;
+
+const day = Math.floor(count / (1000 * 60 * 60 * 24));
+const hours = Math.floor((count % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+const minutes = Math.floor((count % (1000 * 60 * 60)) / (1000 * 60));
+const seconds = Math.floor((count % (1000 * 60)) / 1000);
 
 const Program = () => {
   return (
@@ -19,6 +29,21 @@ const Program = () => {
           onClick={() => window.open('https://forms.gle/bJQfBroLFCMAaUXu8')}
         >
           신청할래요!
+        </SubmitButton>
+        <Date>
+          <span>
+            홈페이지에서 ZOOM 링크를 공개해요
+            <p>ZOOM 링크 공개까지</p>
+          </span>
+        </Date>
+
+        <SubmitButton disabled>
+          <CountDownTimer
+            days={day}
+            hours={hours}
+            minutes={minutes}
+            seconds={seconds}
+          />
         </SubmitButton>
       </ProgramArticle>
       <Arrow>
@@ -65,10 +90,15 @@ const Date = styled.p`
   color: #406bee;
   display: flex;
   gap: 1.2rem;
+  text-align: center;
+  justify-content: center;
 `;
 
 const ProgramArticle = styled.article`
+  display: flex;
+  flex-direction: column;
   padding: 1.6rem 0 4rem 0;
+  gap: 1rem;
 `;
 
 const SubmitButton = styled.button`
@@ -87,6 +117,11 @@ const SubmitButton = styled.button`
   transition: 0.3s all ease;
   :hover {
     background-color: #7646ff;
+  }
+
+  :disabled {
+    background-color: #999999;
+    cursor: default;
   }
 `;
 
