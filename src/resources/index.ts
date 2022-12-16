@@ -242,4 +242,44 @@ export const universities = [
     name: '원광대',
     logo: 'https://www.wdu.ac.kr/images/contents/informationU/symbol_a.png',
   },
+  {
+    name: '대구가톨릭대',
+    logo: 'https://d1qzykz9iz00c7.cloudfront.net/static/logo_new/logo_c069.png',
+  },
+  {
+    name: '서울대',
+    logo: 'https://www.snu.ac.kr/webdata/uploads/kor/image/2022/09/snu_ui_download.png',
+  },
+  {
+    name: '한성대',
+    logo: 'https://www.hansung.ac.kr/sites/hansung/images/sub/ui_3.png',
+  },
+  {
+    name: '충북대',
+    logo: 'https://www.chungbuk.ac.kr/resource/DATA/board/201304/E91C01365489275602.png',
+  },
+  {
+    name: '삼육대',
+    logo: 'https://www.syu.ac.kr/wp-content/uploads/2018/05/pg_thum.png',
+  },
+  {
+    name: '성신여대',
+    logo: 'https://www.sungshin.ac.kr/sites/main_kor/images/contents/ui-sym-ico01.png',
+  },
+  {
+    name: '경성대',
+    logo: 'https://cms1.ks.ac.kr/kor/_Img/sub_image/01_06img12.gif',
+  },
+  {
+    name: '홍익대',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Logo_of_hongik_university.jpg',
+  },
+  {
+    name: '인덕대',
+    logo: 'https://play-lh.googleusercontent.com/w3KBL1t-moWEGDrM1kaco5fN1qxAgj33TGCC1lg3AynYyoyHKNIOYxMKU5cO5BKMAzM',
+  },
+  {
+    name: '안동대',
+    logo: 'https://image.newsis.com/2017/05/11/NISI20170511_0012996696_web.jpg',
+  },
 ];
