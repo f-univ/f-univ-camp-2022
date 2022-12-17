@@ -18,7 +18,7 @@ export default UnivCard;
 
 const Wrapper = styled.section`
   width: 90px;
-  padding: 10px;
+  padding: 10px 0;
   background-color: white;
   border-radius: 10px;
   color: black;

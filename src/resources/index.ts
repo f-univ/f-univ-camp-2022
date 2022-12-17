@@ -128,7 +128,7 @@ export const universities = [
   },
   {
     name: '성결대',
-    logo: 'https://www.sungkyul.ac.kr/sites/skukr/images/sub/ui_img_1.png',
+    logo: 'https://cdn.imweb.me/upload/S201803195aaf4801d3844/5ac6edf32dc68.png',
   },
   {
     name: '한동대',
