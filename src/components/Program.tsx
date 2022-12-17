@@ -1,50 +1,35 @@
 import styled from '@emotion/styled';
 import CountDownTimer from './CountDownTimer';
 
-const campDay = new window.Date('2022-12-18T11:00:00').getTime();
+const campDay = new window.Date('2022-12-18T12:30:00').getTime();
 const now = new window.Date().getTime();
 const count = campDay - now;
 
-const day = Math.floor(count / (1000 * 60 * 60 * 24));
 const hours = Math.floor((count % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 const minutes = Math.floor((count % (1000 * 60 * 60)) / (1000 * 60));
 const seconds = Math.floor((count % (1000 * 60)) / 1000);
 
 const Program = () => {
+  const zoom = () => {
+    if (count >= 0) alert('12월 18일 12:30에 열려요');
+    else window.open('https://us06web.zoom.us/j/87405711316');
+  };
   return (
     <Wrapper>
       <Year>2022</Year>
       <Title>F - UNIV CAMP</Title>
+      <Date>
+        <span>12월 18일</span> | <span>13:00</span> | <span>온라인 ZOOM</span>
+      </Date>
       <Img_3D
         src="/icons/_3D_logo.svg"
         width={336}
         height={300}
         alt="3d_logo"
       />
-      <Date>
-        <span>12월 18일</span> | <span>13:00</span> | <span>온라인 ZOOM</span>
-      </Date>
       <ProgramArticle>
-        <SubmitButton
-          onClick={() => window.open('https://forms.gle/bJQfBroLFCMAaUXu8')}
-        >
-          신청할래요!
-        </SubmitButton>
-        <Date>
-          <span>
-            홈페이지에서 ZOOM 링크를 공개해요
-            <p>ZOOM 링크 공개까지</p>
-          </span>
-        </Date>
-
-        <SubmitButton disabled>
-          <CountDownTimer
-            days={day}
-            hours={hours}
-            minutes={minutes}
-            seconds={seconds}
-          />
-        </SubmitButton>
+        <CountDownTimer hours={hours} minutes={minutes} seconds={seconds} />
+        <SubmitButton onClick={zoom}>ZOOM 바로가기</SubmitButton>
       </ProgramArticle>
       <Arrow>
         <img
@@ -77,13 +62,12 @@ const Title = styled.h1`
   color: #406bee;
   font-size: 1.4rem;
   font-family: 'Sportsball Regular';
-  padding-bottom: 1rem;
   text-align: center;
   line-height: 3.5rem;
 `;
 
 const Date = styled.p`
-  padding-top: 1.6rem;
+  padding-bottom: 1rem;
   font-family: 'Pretendard-Medium';
   font-weight: bold;
   font-size: 1.1rem;
