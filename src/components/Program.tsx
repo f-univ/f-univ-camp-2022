@@ -28,7 +28,9 @@ const Program = () => {
         alt="3d_logo"
       />
       <ProgramArticle>
-        <CountDownTimer hours={hours} minutes={minutes} seconds={seconds} />
+        {count >= 0 && (
+          <CountDownTimer hours={hours} minutes={minutes} seconds={seconds} />
+        )}
         <SubmitButton onClick={zoom}>ZOOM 바로가기</SubmitButton>
       </ProgramArticle>
       <Arrow>
