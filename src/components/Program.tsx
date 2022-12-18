@@ -1,19 +1,6 @@
 import styled from '@emotion/styled';
-import CountDownTimer from './CountDownTimer';
-
-const campDay = new window.Date('2022-12-18T12:30:00').getTime();
-const now = new window.Date().getTime();
-const count = campDay - now;
-
-const hours = Math.floor((count % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-const minutes = Math.floor((count % (1000 * 60 * 60)) / (1000 * 60));
-const seconds = Math.floor((count % (1000 * 60)) / 1000);
 
 const Program = () => {
-  const zoom = () => {
-    if (count >= 0) alert('12월 18일 12:30에 열려요');
-    else window.open('https://us06web.zoom.us/j/83150377284');
-  };
   return (
     <Wrapper>
       <Year>2022</Year>
@@ -28,10 +15,7 @@ const Program = () => {
         alt="3d_logo"
       />
       <ProgramArticle>
-        {count >= 0 && (
-          <CountDownTimer hours={hours} minutes={minutes} seconds={seconds} />
-        )}
-        <SubmitButton onClick={zoom}>ZOOM 바로가기</SubmitButton>
+        <SubmitButton onClick={() => alert('종료되었어요')}>종료!</SubmitButton>
       </ProgramArticle>
       <Arrow>
         <img
