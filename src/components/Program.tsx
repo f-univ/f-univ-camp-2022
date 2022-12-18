@@ -12,7 +12,7 @@ const seconds = Math.floor((count % (1000 * 60)) / 1000);
 const Program = () => {
   const zoom = () => {
     if (count >= 0) alert('12월 18일 12:30에 열려요');
-    else window.open('https://us06web.zoom.us/j/87405711316');
+    else window.open('https://us06web.zoom.us/j/83150377284');
   };
   return (
     <Wrapper>
